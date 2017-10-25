@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29866E301F9EE23E001ED745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29866E2F1F9EE23E001ED745 /* AppDelegate.m */; };
+		29866E331F9EE23E001ED745 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29866E321F9EE23E001ED745 /* ViewController.m */; };
+		29866E361F9EE23E001ED745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29866E341F9EE23E001ED745 /* Main.storyboard */; };
+		29866E381F9EE23E001ED745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29866E371F9EE23E001ED745 /* Assets.xcassets */; };
+		29866E3B1F9EE23E001ED745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29866E391F9EE23E001ED745 /* LaunchScreen.storyboard */; };
+		29866E3E1F9EE23E001ED745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29866E3D1F9EE23E001ED745 /* main.m */; };
+		29866E481F9EE23F001ED745 /* JLRouteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29866E471F9EE23F001ED745 /* JLRouteDemoTests.m */; };
+		29866E531F9EE23F001ED745 /* JLRouteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29866E521F9EE23F001ED745 /* JLRouteDemoUITests.m */; };
+		29B4C50A1F9EE9E300EF99E0 /* .JLRoutes.version in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4D91F9EE9E300EF99E0 /* .JLRoutes.version */; };
+		29B4C50B1F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4DB1F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap */; };
+		29B4C50C1F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4DC1F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap */; };
+		29B4C50D1F9EE9E300EF99E0 /* JLRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B4C4DD1F9EE9E300EF99E0 /* JLRoutes.framework */; };
+		29B4C50E1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4DE1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM */; };
+		29B4C50F1F9EE9E300EF99E0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4E11F9EE9E300EF99E0 /* .gitignore */; };
+		29B4C5101F9EE9E300EF99E0 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4E21F9EE9E300EF99E0 /* .travis.yml */; };
+		29B4C5111F9EE9E300EF99E0 /* .JLRoutes.version in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4E51F9EE9E300EF99E0 /* .JLRoutes.version */; };
+		29B4C5121F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4E71F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap */; };
+		29B4C5131F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4E81F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap */; };
+		29B4C5141F9EE9E300EF99E0 /* JLRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B4C4E91F9EE9E300EF99E0 /* JLRoutes.framework */; };
+		29B4C5151F9EE9E300EF99E0 /* JLRoutes.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4EA1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM */; };
+		29B4C5161F9EE9E300EF99E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4EB1F9EE9E300EF99E0 /* Info.plist */; };
+		29B4C5171F9EE9E300EF99E0 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4C4EF1F9EE9E300EF99E0 /* JLRParsingUtilities.m */; };
+		29B4C5181F9EE9E300EF99E0 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4C4F11F9EE9E300EF99E0 /* JLRRouteDefinition.m */; };
+		29B4C5191F9EE9E300EF99E0 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4C4F31F9EE9E300EF99E0 /* JLRRouteRequest.m */; };
+		29B4C51A1F9EE9E300EF99E0 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4C4F51F9EE9E300EF99E0 /* JLRRouteResponse.m */; };
+		29B4C51B1F9EE9E300EF99E0 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4C4F71F9EE9E300EF99E0 /* JLRoutes.m */; };
+		29B4C51C1F9EE9E300EF99E0 /* JLRoutes.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4F81F9EE9E300EF99E0 /* JLRoutes.podspec */; };
+		29B4C51F1F9EE9E300EF99E0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C4FF1F9EE9E300EF99E0 /* LICENSE */; };
+		29B4C5201F9EE9E300EF99E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 29B4C5001F9EE9E300EF99E0 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29866E441F9EE23F001ED745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29866E231F9EE23E001ED745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29866E2A1F9EE23E001ED745;
+			remoteInfo = JLRouteDemo;
+		};
+		29866E4F1F9EE23F001ED745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29866E231F9EE23E001ED745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29866E2A1F9EE23E001ED745;
+			remoteInfo = JLRouteDemo;
+		};
+		29B4C5041F9EE9E300EF99E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B4C4F91F9EE9E300EF99E0 /* JLRoutes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D33681216C6DC9300F983AA;
+			remoteInfo = JLRoutes;
+		};
+		29B4C5061F9EE9E300EF99E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B4C4F91F9EE9E300EF99E0 /* JLRoutes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5CB4EB491B45BF5B0058E91A;
+			remoteInfo = "JLRoutes-iOS";
+		};
+		29B4C5081F9EE9E300EF99E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B4C4F91F9EE9E300EF99E0 /* JLRoutes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D3CB06F1C73DA2700870B55;
+			remoteInfo = JLRoutesTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29866E2B1F9EE23E001ED745 /* JLRouteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLRouteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29866E2E1F9EE23E001ED745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29866E2F1F9EE23E001ED745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29866E311F9EE23E001ED745 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29866E321F9EE23E001ED745 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29866E351F9EE23E001ED745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29866E371F9EE23E001ED745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29866E3A1F9EE23E001ED745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29866E3C1F9EE23E001ED745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29866E3D1F9EE23E001ED745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29866E431F9EE23F001ED745 /* JLRouteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRouteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29866E471F9EE23F001ED745 /* JLRouteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRouteDemoTests.m; sourceTree = "<group>"; };
+		29866E491F9EE23F001ED745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29866E4E1F9EE23F001ED745 /* JLRouteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLRouteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29866E521F9EE23F001ED745 /* JLRouteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLRouteDemoUITests.m; sourceTree = "<group>"; };
+		29866E541F9EE23F001ED745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B4C4D91F9EE9E300EF99E0 /* .JLRoutes.version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .JLRoutes.version; sourceTree = "<group>"; };
+		29B4C4DB1F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap"; sourceTree = "<group>"; };
+		29B4C4DC1F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap"; sourceTree = "<group>"; };
+		29B4C4DD1F9EE9E300EF99E0 /* JLRoutes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JLRoutes.framework; sourceTree = "<group>"; };
+		29B4C4DE1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = JLRoutes.framework.dSYM; sourceTree = "<group>"; };
+		29B4C4E11F9EE9E300EF99E0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		29B4C4E21F9EE9E300EF99E0 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		29B4C4E51F9EE9E300EF99E0 /* .JLRoutes.version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .JLRoutes.version; sourceTree = "<group>"; };
+		29B4C4E71F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap"; sourceTree = "<group>"; };
+		29B4C4E81F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap"; sourceTree = "<group>"; };
+		29B4C4E91F9EE9E300EF99E0 /* JLRoutes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JLRoutes.framework; sourceTree = "<group>"; };
+		29B4C4EA1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = JLRoutes.framework.dSYM; sourceTree = "<group>"; };
+		29B4C4EB1F9EE9E300EF99E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B4C4EE1F9EE9E300EF99E0 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRParsingUtilities.h; sourceTree = "<group>"; };
+		29B4C4EF1F9EE9E300EF99E0 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRParsingUtilities.m; sourceTree = "<group>"; };
+		29B4C4F01F9EE9E300EF99E0 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteDefinition.h; sourceTree = "<group>"; };
+		29B4C4F11F9EE9E300EF99E0 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteDefinition.m; sourceTree = "<group>"; };
+		29B4C4F21F9EE9E300EF99E0 /* JLRRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteRequest.h; sourceTree = "<group>"; };
+		29B4C4F31F9EE9E300EF99E0 /* JLRRouteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteRequest.m; sourceTree = "<group>"; };
+		29B4C4F41F9EE9E300EF99E0 /* JLRRouteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteResponse.h; sourceTree = "<group>"; };
+		29B4C4F51F9EE9E300EF99E0 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
+		29B4C4F61F9EE9E300EF99E0 /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
+		29B4C4F71F9EE9E300EF99E0 /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
+		29B4C4F81F9EE9E300EF99E0 /* JLRoutes.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JLRoutes.podspec; sourceTree = "<group>"; };
+		29B4C4F91F9EE9E300EF99E0 /* JLRoutes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JLRoutes.xcodeproj; sourceTree = "<group>"; };
+		29B4C4FF1F9EE9E300EF99E0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29B4C5001F9EE9E300EF99E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29866E281F9EE23E001ED745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B4C5141F9EE9E300EF99E0 /* JLRoutes.framework in Frameworks */,
+				29B4C50D1F9EE9E300EF99E0 /* JLRoutes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29866E401F9EE23F001ED745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29866E4B1F9EE23F001ED745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29866E221F9EE23E001ED745 = {
+			isa = PBXGroup;
+			children = (
+				29866E2D1F9EE23E001ED745 /* JLRouteDemo */,
+				29866E461F9EE23F001ED745 /* JLRouteDemoTests */,
+				29866E511F9EE23F001ED745 /* JLRouteDemoUITests */,
+				29866E2C1F9EE23E001ED745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29866E2C1F9EE23E001ED745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29866E2B1F9EE23E001ED745 /* JLRouteDemo.app */,
+				29866E431F9EE23F001ED745 /* JLRouteDemoTests.xctest */,
+				29866E4E1F9EE23F001ED745 /* JLRouteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29866E2D1F9EE23E001ED745 /* JLRouteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4D71F9EE9E300EF99E0 /* Carthage */,
+				29866E2E1F9EE23E001ED745 /* AppDelegate.h */,
+				29866E2F1F9EE23E001ED745 /* AppDelegate.m */,
+				29866E311F9EE23E001ED745 /* ViewController.h */,
+				29866E321F9EE23E001ED745 /* ViewController.m */,
+				29866E341F9EE23E001ED745 /* Main.storyboard */,
+				29866E371F9EE23E001ED745 /* Assets.xcassets */,
+				29866E391F9EE23E001ED745 /* LaunchScreen.storyboard */,
+				29866E3C1F9EE23E001ED745 /* Info.plist */,
+				29866E3D1F9EE23E001ED745 /* main.m */,
+			);
+			path = JLRouteDemo;
+			sourceTree = "<group>";
+		};
+		29866E461F9EE23F001ED745 /* JLRouteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				29866E471F9EE23F001ED745 /* JLRouteDemoTests.m */,
+				29866E491F9EE23F001ED745 /* Info.plist */,
+			);
+			path = JLRouteDemoTests;
+			sourceTree = "<group>";
+		};
+		29866E511F9EE23F001ED745 /* JLRouteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29866E521F9EE23F001ED745 /* JLRouteDemoUITests.m */,
+				29866E541F9EE23F001ED745 /* Info.plist */,
+			);
+			path = JLRouteDemoUITests;
+			sourceTree = "<group>";
+		};
+		29B4C4D71F9EE9E300EF99E0 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4D81F9EE9E300EF99E0 /* Build */,
+				29B4C4DF1F9EE9E300EF99E0 /* Checkouts */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		29B4C4D81F9EE9E300EF99E0 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4D91F9EE9E300EF99E0 /* .JLRoutes.version */,
+				29B4C4DA1F9EE9E300EF99E0 /* iOS */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		29B4C4DA1F9EE9E300EF99E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4DB1F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap */,
+				29B4C4DC1F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap */,
+				29B4C4DD1F9EE9E300EF99E0 /* JLRoutes.framework */,
+				29B4C4DE1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		29B4C4DF1F9EE9E300EF99E0 /* Checkouts */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4E01F9EE9E300EF99E0 /* JLRoutes */,
+			);
+			path = Checkouts;
+			sourceTree = "<group>";
+		};
+		29B4C4E01F9EE9E300EF99E0 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4E11F9EE9E300EF99E0 /* .gitignore */,
+				29B4C4E21F9EE9E300EF99E0 /* .travis.yml */,
+				29B4C4E31F9EE9E300EF99E0 /* Carthage */,
+				29B4C4EB1F9EE9E300EF99E0 /* Info.plist */,
+				29B4C4EC1F9EE9E300EF99E0 /* JLRoutes */,
+				29B4C4F81F9EE9E300EF99E0 /* JLRoutes.podspec */,
+				29B4C4F91F9EE9E300EF99E0 /* JLRoutes.xcodeproj */,
+				29B4C4FF1F9EE9E300EF99E0 /* LICENSE */,
+				29B4C5001F9EE9E300EF99E0 /* README.md */,
+			);
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		29B4C4E31F9EE9E300EF99E0 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4E41F9EE9E300EF99E0 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		29B4C4E41F9EE9E300EF99E0 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4E51F9EE9E300EF99E0 /* .JLRoutes.version */,
+				29B4C4E61F9EE9E300EF99E0 /* iOS */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		29B4C4E61F9EE9E300EF99E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4E71F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap */,
+				29B4C4E81F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap */,
+				29B4C4E91F9EE9E300EF99E0 /* JLRoutes.framework */,
+				29B4C4EA1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		29B4C4EC1F9EE9E300EF99E0 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4ED1F9EE9E300EF99E0 /* Classes */,
+				29B4C4F61F9EE9E300EF99E0 /* JLRoutes.h */,
+				29B4C4F71F9EE9E300EF99E0 /* JLRoutes.m */,
+			);
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		29B4C4ED1F9EE9E300EF99E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C4EE1F9EE9E300EF99E0 /* JLRParsingUtilities.h */,
+				29B4C4EF1F9EE9E300EF99E0 /* JLRParsingUtilities.m */,
+				29B4C4F01F9EE9E300EF99E0 /* JLRRouteDefinition.h */,
+				29B4C4F11F9EE9E300EF99E0 /* JLRRouteDefinition.m */,
+				29B4C4F21F9EE9E300EF99E0 /* JLRRouteRequest.h */,
+				29B4C4F31F9EE9E300EF99E0 /* JLRRouteRequest.m */,
+				29B4C4F41F9EE9E300EF99E0 /* JLRRouteResponse.h */,
+				29B4C4F51F9EE9E300EF99E0 /* JLRRouteResponse.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29B4C4FA1F9EE9E300EF99E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B4C5051F9EE9E300EF99E0 /* libJLRoutes.a */,
+				29B4C5071F9EE9E300EF99E0 /* JLRoutes.framework */,
+				29B4C5091F9EE9E300EF99E0 /* JLRoutesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29866E2A1F9EE23E001ED745 /* JLRouteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29866E571F9EE23F001ED745 /* Build configuration list for PBXNativeTarget "JLRouteDemo" */;
+			buildPhases = (
+				29866E271F9EE23E001ED745 /* Sources */,
+				29866E281F9EE23E001ED745 /* Frameworks */,
+				29866E291F9EE23E001ED745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLRouteDemo;
+			productName = JLRouteDemo;
+			productReference = 29866E2B1F9EE23E001ED745 /* JLRouteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29866E421F9EE23F001ED745 /* JLRouteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29866E5A1F9EE23F001ED745 /* Build configuration list for PBXNativeTarget "JLRouteDemoTests" */;
+			buildPhases = (
+				29866E3F1F9EE23F001ED745 /* Sources */,
+				29866E401F9EE23F001ED745 /* Frameworks */,
+				29866E411F9EE23F001ED745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29866E451F9EE23F001ED745 /* PBXTargetDependency */,
+			);
+			name = JLRouteDemoTests;
+			productName = JLRouteDemoTests;
+			productReference = 29866E431F9EE23F001ED745 /* JLRouteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29866E4D1F9EE23F001ED745 /* JLRouteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29866E5D1F9EE23F001ED745 /* Build configuration list for PBXNativeTarget "JLRouteDemoUITests" */;
+			buildPhases = (
+				29866E4A1F9EE23F001ED745 /* Sources */,
+				29866E4B1F9EE23F001ED745 /* Frameworks */,
+				29866E4C1F9EE23F001ED745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29866E501F9EE23F001ED745 /* PBXTargetDependency */,
+			);
+			name = JLRouteDemoUITests;
+			productName = JLRouteDemoUITests;
+			productReference = 29866E4E1F9EE23F001ED745 /* JLRouteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29866E231F9EE23E001ED745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = shawn;
+				TargetAttributes = {
+					29866E2A1F9EE23E001ED745 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					29866E421F9EE23F001ED745 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29866E2A1F9EE23E001ED745;
+					};
+					29866E4D1F9EE23F001ED745 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29866E2A1F9EE23E001ED745;
+					};
+				};
+			};
+			buildConfigurationList = 29866E261F9EE23E001ED745 /* Build configuration list for PBXProject "JLRouteDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29866E221F9EE23E001ED745;
+			productRefGroup = 29866E2C1F9EE23E001ED745 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 29B4C4FA1F9EE9E300EF99E0 /* Products */;
+					ProjectRef = 29B4C4F91F9EE9E300EF99E0 /* JLRoutes.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				29866E2A1F9EE23E001ED745 /* JLRouteDemo */,
+				29866E421F9EE23F001ED745 /* JLRouteDemoTests */,
+				29866E4D1F9EE23F001ED745 /* JLRouteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		29B4C5051F9EE9E300EF99E0 /* libJLRoutes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJLRoutes.a;
+			remoteRef = 29B4C5041F9EE9E300EF99E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		29B4C5071F9EE9E300EF99E0 /* JLRoutes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JLRoutes.framework;
+			remoteRef = 29B4C5061F9EE9E300EF99E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		29B4C5091F9EE9E300EF99E0 /* JLRoutesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JLRoutesTests.xctest;
+			remoteRef = 29B4C5081F9EE9E300EF99E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29866E291F9EE23E001ED745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B4C50F1F9EE9E300EF99E0 /* .gitignore in Resources */,
+				29B4C5131F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap in Resources */,
+				29B4C5121F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap in Resources */,
+				29B4C5111F9EE9E300EF99E0 /* .JLRoutes.version in Resources */,
+				29B4C50B1F9EE9E300EF99E0 /* 9F5E4FDE-30FA-3570-B5ED-911255729427.bcsymbolmap in Resources */,
+				29B4C5201F9EE9E300EF99E0 /* README.md in Resources */,
+				29B4C50C1F9EE9E300EF99E0 /* B9058EB3-5794-39CF-B15C-BEB837883593.bcsymbolmap in Resources */,
+				29B4C5161F9EE9E300EF99E0 /* Info.plist in Resources */,
+				29B4C51F1F9EE9E300EF99E0 /* LICENSE in Resources */,
+				29B4C51C1F9EE9E300EF99E0 /* JLRoutes.podspec in Resources */,
+				29B4C5101F9EE9E300EF99E0 /* .travis.yml in Resources */,
+				29B4C5151F9EE9E300EF99E0 /* JLRoutes.framework.dSYM in Resources */,
+				29866E3B1F9EE23E001ED745 /* LaunchScreen.storyboard in Resources */,
+				29B4C50E1F9EE9E300EF99E0 /* JLRoutes.framework.dSYM in Resources */,
+				29866E381F9EE23E001ED745 /* Assets.xcassets in Resources */,
+				29866E361F9EE23E001ED745 /* Main.storyboard in Resources */,
+				29B4C50A1F9EE9E300EF99E0 /* .JLRoutes.version in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29866E411F9EE23F001ED745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29866E4C1F9EE23F001ED745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29866E271F9EE23E001ED745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B4C5191F9EE9E300EF99E0 /* JLRRouteRequest.m in Sources */,
+				29B4C5171F9EE9E300EF99E0 /* JLRParsingUtilities.m in Sources */,
+				29866E331F9EE23E001ED745 /* ViewController.m in Sources */,
+				29866E3E1F9EE23E001ED745 /* main.m in Sources */,
+				29B4C51A1F9EE9E300EF99E0 /* JLRRouteResponse.m in Sources */,
+				29B4C51B1F9EE9E300EF99E0 /* JLRoutes.m in Sources */,
+				29B4C5181F9EE9E300EF99E0 /* JLRRouteDefinition.m in Sources */,
+				29866E301F9EE23E001ED745 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29866E3F1F9EE23F001ED745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29866E481F9EE23F001ED745 /* JLRouteDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29866E4A1F9EE23F001ED745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29866E531F9EE23F001ED745 /* JLRouteDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29866E451F9EE23F001ED745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29866E2A1F9EE23E001ED745 /* JLRouteDemo */;
+			targetProxy = 29866E441F9EE23F001ED745 /* PBXContainerItemProxy */;
+		};
+		29866E501F9EE23F001ED745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29866E2A1F9EE23E001ED745 /* JLRouteDemo */;
+			targetProxy = 29866E4F1F9EE23F001ED745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29866E341F9EE23E001ED745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29866E351F9EE23E001ED745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29866E391F9EE23E001ED745 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29866E3A1F9EE23E001ED745 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29866E551F9EE23F001ED745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29866E561F9EE23F001ED745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29866E581F9EE23F001ED745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K7596J6HN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JLRouteDemo/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/JLRouteDemo/Carthage/Checkouts/JLRoutes/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = JLRouteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.JLRouteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29866E591F9EE23F001ED745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K7596J6HN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JLRouteDemo/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/JLRouteDemo/Carthage/Checkouts/JLRoutes/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = JLRouteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.JLRouteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29866E5B1F9EE23F001ED745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = JLRouteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.JLRouteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLRouteDemo.app/JLRouteDemo";
+			};
+			name = Debug;
+		};
+		29866E5C1F9EE23F001ED745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = JLRouteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.JLRouteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLRouteDemo.app/JLRouteDemo";
+			};
+			name = Release;
+		};
+		29866E5E1F9EE23F001ED745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = JLRouteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.JLRouteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JLRouteDemo;
+			};
+			name = Debug;
+		};
+		29866E5F1F9EE23F001ED745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ6SFC8N6W;
+				INFOPLIST_FILE = JLRouteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.JLRouteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JLRouteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29866E261F9EE23E001ED745 /* Build configuration list for PBXProject "JLRouteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29866E551F9EE23F001ED745 /* Debug */,
+				29866E561F9EE23F001ED745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29866E571F9EE23F001ED745 /* Build configuration list for PBXNativeTarget "JLRouteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29866E581F9EE23F001ED745 /* Debug */,
+				29866E591F9EE23F001ED745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29866E5A1F9EE23F001ED745 /* Build configuration list for PBXNativeTarget "JLRouteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29866E5B1F9EE23F001ED745 /* Debug */,
+				29866E5C1F9EE23F001ED745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29866E5D1F9EE23F001ED745 /* Build configuration list for PBXNativeTarget "JLRouteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29866E5E1F9EE23F001ED745 /* Debug */,
+				29866E5F1F9EE23F001ED745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29866E231F9EE23E001ED745 /* Project object */;
+}
